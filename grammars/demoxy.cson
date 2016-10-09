@@ -1,0 +1,10 @@
+'scopeName': 'text.xml.demoxy'
+'name': 'DEMO XY XML'
+'fileTypes': [
+  'demoxyext'
+]
+'patterns': [
+  {
+    'include': 'text.xml'
+  }
+]
