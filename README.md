@@ -15,5 +15,7 @@ The schemas used for validation and autocomplete, per IATI version.
 
 ### settings/iati.cson
 
-A settings file providing the rules to associate the schemas with the grammar scope `text.xml.iati`.
-The editor will look at the root element and try to use the version attribute.
+A settings file providing the rules to associate the schemas with XML files.
+The editor will look at the root element to determine if it is either
+`iati-activities` or `iati-organisations` and use the version attribute to
+find the matching schema, or use IATI version 2.02 for unrecognised versions.
