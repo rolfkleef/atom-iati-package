@@ -1,0 +1,206 @@
+'.text.xml':
+  'validation':
+    'rules': [
+      #######################################################
+      # ACTIVITY FILES
+      #######################################################
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-activities"
+          rootAttributes:
+            version: "1.01"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.01/iati-activities-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-activities"
+          rootAttributes:
+            version: "1.02"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.02/iati-activities-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-activities"
+          rootAttributes:
+            version: "1.03"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.03/iati-activities-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-activities"
+          rootAttributes:
+            version: "1.04"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.04/iati-activities-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-activities"
+          rootAttributes:
+            version: "1.05"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.05/iati-activities-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-activities"
+          rootAttributes:
+            version: "2.01"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/2.01/iati-activities-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 1
+        test:
+          rootLocalName: "iati-activities"
+          # default to the latest version 2.02
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/2.02/iati-activities-schema.xsd"
+            }
+          ]
+      }
+
+      #######################################################
+      # ORGANISATION FILES
+      #######################################################
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-organisations"
+          rootAttributes:
+            version: "1.01"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.01/iati-organisations-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-organisations"
+          rootAttributes:
+            version: "1.02"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.02/iati-organisations-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-organisations"
+          rootAttributes:
+            version: "1.03"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.03/iati-organisations-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-organisations"
+          rootAttributes:
+            version: "1.04"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.04/iati-organisations-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-organisations"
+          rootAttributes:
+            version: "1.05"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/1.05/iati-organisations-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 2
+        test:
+          rootLocalName: "iati-organisations"
+          rootAttributes:
+            version: "2.01"
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/2.01/iati-organisations-schema.xsd"
+            }
+          ]
+      }
+      {
+        priority: 1
+        test:
+          rootLocalName: "iati-organisations"
+          # default to the latest version 2.02
+        outcome:
+          schemaProps: [
+            {
+              lang: "xsd"
+              path: "../schemata/2.02/iati-organisations-schema.xsd"
+            }
+          ]
+      }
+
+    ]

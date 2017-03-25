@@ -1,10 +1,11 @@
 {
-  "name": "xml-demo-package",
-  "version": "0.0.1",
-  "description": "Demo Atom Package providing a derived XML Grammar and Validation Rules",
+  "name": "iati-xml",
+  "version": "0.0.0",
+  "description": "Atom Package to support IATI XML validation and autocompletion.",
   "keywords": [
+    "IATI"
   ],
-  "repository": "https://github.com/aerhard/xml-demo-package",
+  "repository": "https://github.com/rolfkleef/atom-iati-package",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

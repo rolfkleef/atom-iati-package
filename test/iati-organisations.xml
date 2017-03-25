@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Minimal IATI 2.02 organisations file -->
+<iati-organisations version="2.02">
+  <iati-organisation>
+    <organisation-identifier>123</organisation-identifier>
+    <name><narrative>Org</narrative></name>
+    <reporting-org ref="123" type="1"><narrative>Org</narrative></reporting-org>
+  </iati-organisation>
+</iati-organisations>
