@@ -1,6 +1,6 @@
 {
   "name": "iati-xml",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom Package to support IATI XML validation and autocompletion.",
   "keywords": [
     "IATI"
@@ -10,6 +10,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
